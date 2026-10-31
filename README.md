@@ -1,2 +1,0 @@
-# Assinment-
-Data collection datatype
