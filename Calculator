@@ -1,0 +1,16 @@
+def cal():
+    num1 = int(input("Enter first value :"))
+    num2 = int(input("Enter second value :"))
+    operator = input("Enter operator + for add, - for substraction , *for mulfiplicaton , / for divide : ")
+    if operator == '+':
+        print("The addition = ",num1+ num2)
+    elif operator == '-':
+        print("The subsraction = ", num1-num2)
+    elif operator == '*':
+        print("The multiplication = ", num1*num2)
+    elif operator == '/':
+        print("The divide = ", num1/num2)
+    else:
+        print("Enter valid value !!")
+
+cal()
